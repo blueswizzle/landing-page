@@ -5,16 +5,17 @@ import{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    
     
 }
 
 
 .navbar{
-    background-color: black;
+    background-color: rgba(0,0,0,0.8);
     color:white;
     height:65px;
     
@@ -44,11 +45,7 @@ body{
     height:100%;
 
 }
-.leftImage{
-    height:65px;
-    border-radius: 100%;
-    
-}
+
 .leftHeaderName{
     font-weight: bold;
     font-size: xx-large;
@@ -79,7 +76,7 @@ li a:link,a:visited{
     list-style: none;
 }
 .layer1{
-    background-color: rgb(15 42 87);
+    background-color: rgba(0,0,0,0.6);
     color: white;
     display: flex;
     justify-content: center;
@@ -98,12 +95,15 @@ li a:link,a:visited{
 .layer1TextContainer h1{
     text-transform: uppercase;
 }
+.layer1TextContainer a:hover{
+    box-shadow: 0 0 2em rgb(69 69 69);
+}
 .joinButton{
     display: block;
     text-align: center;
     width: 110px;
     border: none;
-    background: #3882f6;
+    background: black;
     padding: 10px;
     border-radius: 8px;
     color: #fff;
@@ -111,14 +111,41 @@ li a:link,a:visited{
     text-decoration: none;
     font-weight: bold;
     margin-top: 25px;
+    
 }
 .baki-layer1-image{
     width:300px;
     height:400px;
+    border-radius: 15px;
+    box-shadow: 0 0 2em rgb(69 69 69);
 }
 
 .cards h2{
     text-align: center;
     font-weight: bold;
     margin: 15px;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.cardsFlexContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cardsFlexContainer img{
+    width: 12em;
+    height: 14em;
+    object-fit: cover;
+    border: 0.3em solid rgb(255, 255, 255);
+    border-radius: 1.5em;
+    box-shadow: 0 10px 30px black;
+    margin:10px;
+}
+.cardsFlexContainer h3{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+
 }
