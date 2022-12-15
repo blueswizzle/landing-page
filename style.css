@@ -94,7 +94,7 @@ li a:hover{
 
 
 @media (max-width:1000px){
-    .layer1TextContainer{
+    .layer1{
         flex-direction: column;
     }
 
