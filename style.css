@@ -8,10 +8,6 @@ import{
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    
-    
-}
 
 
 .navbar{
@@ -124,7 +120,9 @@ li a:link,a:visited{
     text-align: center;
     font-weight: bold;
     margin: 15px;
-    background-color: rgba(0,0,0,0.5);
+    
+    border:2px solid red;
+    background-color: black;
     color:white;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -148,4 +146,32 @@ li a:link,a:visited{
     font-weight: bold;
     text-align: center;
 
+}
+
+.quoteLayer{
+    background-color: rgba(128, 128, 128,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-shadow: 0 0 1em black, 0 0 2em black;
+    font-weight: bold;
+    padding:0, 200px;
+    height:300px;
+}
+.quoteFlexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 11em 0;
+    font-size: 24px;
+    
+    letter-spacing: 2px;
+    
+}
+.quoteFrom{
+    margin-top: 45px;
 }
