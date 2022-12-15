@@ -205,3 +205,12 @@ li a:link,a:visited{
 .supportLink a:hover{
     box-shadow: 0 0 2em rgb(69 69 69);
 }
+
+.footerLayer{
+    background-color: #1F2937;
+    color: #fff;
+}
+
+.footerLayer p{
+    text-align: center;
+}
