@@ -63,6 +63,9 @@ li a:link,a:visited{
     font-size: x-large;
     
 }
+li a:hover{
+    box-shadow: 0 0 2em rgb(69 69 69);
+}
 .rightLinksFlexContainer{
     display: flex;
     justify-content: space-between;
@@ -88,8 +91,22 @@ li a:link,a:visited{
     margin-right: 50px;
     gap:15px;
 }
+
+
+@media (max-width:1000px){
+    .layer1TextContainer{
+        flex-direction: column;
+    }
+
+    
+}
 .layer1TextContainer h1{
     text-transform: uppercase;
+}
+.layer1TextContainer p{
+    max-width: 700px;
+    max-height: 450px;
+    letter-spacing: 2px;
 }
 .layer1TextContainer a:hover{
     box-shadow: 0 0 2em rgb(69 69 69);
@@ -159,6 +176,7 @@ li a:link,a:visited{
     font-weight: bold;
     padding:0, 200px;
     height:300px;
+    margin-top: 10px;
 }
 .quoteFlexContainer{
     display: flex;
