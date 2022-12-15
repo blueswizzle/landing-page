@@ -194,10 +194,8 @@ li a:hover{
     margin-top: 45px;
 }
 
-.layer4BackgroundFlex{
-    background-image: linear-gradient(rgb(14, 3, 3),rgb(56, 9, 9));
-    
-    
+.layer4Background{
+    background-image: linear-gradient(rgb(14, 3, 3),rgb(228, 11, 11));
     padding: 2.5em 0;
 }
 .layer4FlexContainer{
