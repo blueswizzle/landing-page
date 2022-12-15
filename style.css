@@ -64,4 +64,35 @@ li a:link,a:visited{
 .layer1{
     background-color: rgb(15 42 87);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    padding:90px;
+}
+.layer1TextContainer{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+    gap:15px;
+}
+.joinButton{
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.baki-layer1-image{
+    width:300px;
+    height:400px;
 }
